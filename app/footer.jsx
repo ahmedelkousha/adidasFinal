@@ -1,6 +1,5 @@
 import './footer.css'
 import { useEffect, useState } from 'react';
-import $ from 'jquery';
 
 export default function Footer() {
 
