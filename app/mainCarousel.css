@@ -1,0 +1,45 @@
+.absolute-container-arrows{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+  .carouselArrows{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+  .buy-now-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 55%;
+    left: 3%;
+    gap: 10px;
+    z-index: 2;
+    opacity: 0.8;
+    background-color: white;
+    font-family: "AdihausDIN", sans-serif;
+    min-width: 50%;
+    min-height: 20%;
+  }
+
+  .leftArrow:hover {
+    background-color: white;
+    color: #0a0a0a;
+    transition: all 0.3s;
+    border-radius: 20px;
+  }
+  .rightArrow:hover {
+    background-color: white;
+    color: #0a0a0a;
+    transition: all 0.3s;
+    border-radius: 20px;
+  }

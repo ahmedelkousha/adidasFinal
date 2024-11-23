@@ -1,0 +1,213 @@
+@media (min-width: 1200px) {
+  .menuContainer .arrowContainer,
+  .menuLine {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .footerContainer {
+    padding: 8% 8% 12% 8% !important;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+  }
+  .menuContainer .arrowContainer,
+  .menuLine {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footerContainer {
+    padding: 8% 8% 12% 8% !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 1px !important;
+  }
+  .footerContainer h2 {
+    font-size: 12px;
+  }
+  .menuContainer .arrowContainer,
+  .menuLine {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .footerContainer {
+    padding: 8% 3% 12% 3% !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 1px !important;
+  }
+  .footerContainer h2 {
+    font-size: 12px;
+    text-align: left;
+    flex-basis: 50%;
+  }
+
+  .menuContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rowContainer {
+    justify-content: center;
+    align-items: center;
+  }
+  .iconContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    text-align: center;
+    padding: 0% 5%;
+    align-items: flex-start;
+  }
+  .iconContainer i {
+    text-align: right;
+    font-size: 16px;
+    flex-basis: 50%;
+  }
+  .menuLine {
+    width: 100%;
+    height: 1px !important;
+  }
+  .productsMenu,
+  .sportsMenu,
+  .categoryMenu,
+  .comapnyInfoMenu,
+  .supportMenu,
+  .followUsMenu {
+    display: none;
+  }
+  /* .iconProducts{
+    transform: rotate(180deg);
+    text-align: right;
+    font-size: 16px;
+    flex-basis: 50%;
+    transition: 2s;
+  } */
+  .privacyMenu {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .showMenu {
+    display: block;
+  }
+  .hideMenu {
+    display: none;
+  }
+  .rowContainerFollowUs{
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footerContainer {
+    padding: 8% 3% 12% 3% !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 1px !important;
+  }
+  .footerContainer h2 {
+    font-size: 12px;
+    text-align: left;
+    flex-basis: 50%;
+  }
+
+  .menuContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rowContainer {
+    justify-content: center;
+    align-items: center;
+
+  }
+  .iconContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    text-align: center;
+    padding: 0% 5%;
+    align-items: flex-start;
+  }
+  .iconContainer i {
+    text-align: right;
+    font-size: 16px;
+  }
+  .menuLine {
+    width: 100%;
+    height: 1px !important;
+  }
+  /* .productsMenu, .sportsMenu, .categoryMenu, .comapnyInfoMenu, .supportMenu, .followUsMenu{
+    display:none;
+  } */
+  /* .iconProducts{
+    transform: rotate(180deg);
+    text-align: right;
+    font-size: 16px;
+    flex-basis: 50%;
+    transition: 2s;
+  } */
+  .privacyMenu {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .showMenu {
+    display: block;
+  }
+  .hideMenu {
+    display: none;
+  }
+  .rowContainerFollowUs{
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
+.arrowContainer {
+  flex-basis: 50%;
+  text-align: right;
+}
+
+.arrowRotated {
+  &::before {
+    transform: rotate(180deg);
+    transition: all 200ms;
+  }
+}
+.arrowBack {
+  &::before {
+    transform: rotate(0);
+    transition: all 200ms;
+  }
+}
+
+.footerContainer {
+  padding: 8% 18% 4% 18%;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+}
+.footerContainer a {
+  width: fit-content;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.footerContainer h2:hover {
+  cursor: default;
+}
