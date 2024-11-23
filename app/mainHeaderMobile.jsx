@@ -1,6 +1,6 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./nav-icon-menu.css";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import $ from 'jquery';
 import './footer.css'; //for className State
 
