@@ -6,7 +6,7 @@ import MainHeaderMobile from "./mainHeaderMobile";
 import PromotionHeader from "./promotionHeader";
 import OfferCard from "./offerCard";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import Banner from "./banner";
 import PopularNow from "./popularNow";
 import CategoriesMini from "./categoriesMini";
